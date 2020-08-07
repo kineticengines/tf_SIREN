@@ -13,10 +13,9 @@ URL = "https://github.com/titu1994/tf_SIREN"
 LICENCE = 'MIT'
 
 # # Extra requirements and configs
-# EXTRA_REQUIREMENTS = {
-#     'cpu': ['tensorflow >= 2.2.0'],
-#     'gpu': ['tensorflow >= 2.2.0'],
-# }
+EXTRA_REQUIREMENTS = {
+    'tf': ['tensorflow >= 2.3.0'],    
+}
 
 # Test requirements and configs
 TEST_REQUIRES = ['pytest', 'scipy']
