@@ -3,7 +3,8 @@ import os
 import re
 import sys
 from shutil import rmtree
-from setuptools import find_packages, setup, Command
+
+from setuptools import Command, find_packages, setup
 
 # Package arguments
 PACKAGE_NAME = "tf_siren"
@@ -11,11 +12,11 @@ SHORT_DESCRIPION = "Tensorflow 2.0 implementation of Sinusodial Representation n
 URL = "https://github.com/titu1994/tf_SIREN"
 LICENCE = 'MIT'
 
-# Extra requirements and configs
-EXTRA_REQUIREMENTS = {
-    'cpu': ['tensorflow >= 2.2.0'],
-    'gpu': ['tensorflow >= 2.2.0'],
-}
+# # Extra requirements and configs
+# EXTRA_REQUIREMENTS = {
+#     'cpu': ['tensorflow >= 2.2.0'],
+#     'gpu': ['tensorflow >= 2.2.0'],
+# }
 
 # Test requirements and configs
 TEST_REQUIRES = ['pytest', 'scipy']
