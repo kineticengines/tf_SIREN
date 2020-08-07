@@ -14,7 +14,7 @@ LICENCE = 'MIT'
 
 # # Extra requirements and configs
 EXTRA_REQUIREMENTS = {
-    'tf': ['tensorflow >= 2.3.0'],    
+    # 'tf': ['tensorflow >= 2.3.0'],    
 }
 
 # Test requirements and configs
